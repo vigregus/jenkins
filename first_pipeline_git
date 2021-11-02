@@ -20,6 +20,7 @@ pipeline {
             steps {
                 echo "Start of Stage Deploy"
                 echo "Deploying......."
+                sh "pwd"
                 echo "End of Stage Build"
             }
         }
